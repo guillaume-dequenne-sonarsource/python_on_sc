@@ -18,6 +18,7 @@ def my_other_func():
         my_tuple + my_list
     except TypeError:
         print("Hello there!")
+    return 24
 
 
 def main():
