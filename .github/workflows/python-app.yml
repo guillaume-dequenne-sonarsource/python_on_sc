@@ -39,6 +39,7 @@ jobs:
     - name: Test with pytest
       run: |
         pytest --cov=src --cov-report xml:cov.xml
+        pytest --cov=src
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@v1.3
       env:
